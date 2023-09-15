@@ -25,7 +25,7 @@ Session(app)
 
 db_name = "flask_db"
 db_user = "postgres"
-db_password = "Pakistan"
+db_password = "Kevin"
 db_host = "localhost"
 db_port = "5435"
 
