@@ -25,7 +25,7 @@ Session(app)
 
 db_name = "flask_db"
 db_user = "postgres"
-db_password = "Kevin"
+db_password = "Colombia"
 db_host = "localhost"
 db_port = "5435"
 
@@ -246,6 +246,6 @@ def login():
 
 
 if __name__ == "__main__":
-    app.secret_key = 'yaani_mahar'
-    app.config['SESSION_TYPE'] = 'yaani_mahar'
+    app.secret_key = 'ckevin'
+    app.config['SESSION_TYPE'] = 'ckevin'
     app.run(debug=True, port=8000)
